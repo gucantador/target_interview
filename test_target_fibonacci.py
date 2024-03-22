@@ -6,6 +6,6 @@ def test_pertencem_sequencia_fibonacci():
         assert pertence_a_sequencia_fibonacci(i)
         
 def test_nao_pertencem_sequencia_fibonacci():
-    pertencem = [4, 6, 7, 9, 10, 11, 12, 14, 15]
-    for i in pertencem:
+    nao_pertencem = [4, 6, 7, 9, 10, 11, 12, 14, 15]
+    for i in nao_pertencem:
         assert not pertence_a_sequencia_fibonacci(i)
